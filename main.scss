@@ -6,6 +6,7 @@ body {
   line-height: 1.4;
   font-family: 'Nanum Gothic', sans-serif;
   box-sizing: border-box;
+  height: 3000px;
 }
 
 image {
@@ -188,6 +189,17 @@ header {
         .item__contents {
           display: block;
         }
+      }
+    }
+  }
+  .badges {
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+    .badge {
+      img {
+        border-radius: 12px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
       }
     }
   }
