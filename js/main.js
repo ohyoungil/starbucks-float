@@ -42,3 +42,10 @@ $spyEls.forEach(function (spyEl) {
     .setClassToggle(spyEl, 'show')
     .addTo(new ScrollMagic.Controller());
 });
+
+// new Swiper
+new Swiper('.inner__left .swiper-container', {
+  direction: 'vertical',
+  autoplay: true,
+  loop: true,
+});

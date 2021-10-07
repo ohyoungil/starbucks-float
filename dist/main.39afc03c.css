@@ -224,7 +224,7 @@ header .badges .badge img {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-/*#################### VISUAL ####################*/
+/*#################### section : VISUAL ####################*/
 .visual {
   margin-top: 120px;
   background-image: url("/visual_bg.12b4b254.jpg");
@@ -250,25 +250,25 @@ header .badges .badge img {
 }
 .visual .inner .cup1__image {
   position: absolute;
-  top: 80px;
+  top: 70px;
   right: -50px;
   opacity: 0;
 }
 .visual .inner .cup1__text {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 180px;
   opacity: 0;
 }
 .visual .inner .cup2__image {
   position: absolute;
-  top: 150px;
+  top: 140px;
   right: 150px;
   opacity: 0;
 }
 .visual .inner .cup2__text {
   position: absolute;
-  top: 320px;
+  top: 300px;
   right: 420px;
   opacity: 0;
 }
@@ -297,6 +297,80 @@ header .badges .badge img {
   opacity: 1;
   transition: 0.8s;
   transition-delay: 2.2s;
+}
+
+/*#################### section : Notice ####################*/
+.notice .notice-line {
+  position: relative;
+}
+.notice .notice-line .bg-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 57%;
+  height: 100%;
+  background-color: #333;
+}
+.notice .notice-line .bg-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 43%;
+  height: 100%;
+  background-color: #f6f5ef;
+}
+.notice .notice-line .inner {
+  height: 62px;
+}
+.notice .notice-line .inner .inner__left {
+  float: left;
+  width: 60%;
+  height: 100%;
+  padding-top: 18px;
+  overflow: hidden;
+}
+.notice .notice-line .inner .inner__left h2 {
+  color: #fff;
+  float: left;
+  margin-right: 50px;
+  font-weight: 700;
+}
+.notice .notice-line .inner .inner__left .swiper-container {
+  float: left;
+  height: 100%;
+}
+.notice .notice-line .inner .inner__left .swiper-container .swiper-wrapper .swiper-slide a {
+  color: #fff;
+}
+.notice .notice-line .inner .inner__left .notice-line__more {
+  float: right;
+  color: #fff;
+}
+.notice .notice-line .inner .inner__left .notice-line__more div {
+  font-size: 30px;
+}
+.notice .notice-line .inner .inner__right {
+  float: left;
+  width: 40%;
+  height: 100%;
+  text-align: right;
+}
+.notice .notice-line .inner .inner__right h2 {
+  padding-top: 20px;
+  padding-right: 50px;
+  font-weight: 700;
+  display: inline-block;
+}
+.notice .notice-line .inner .inner__right .toggle-promotion {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 20px;
+  right: 20px;
+}
+.notice .notice-line .inner .inner__right .toggle-promotion div {
+  position: absolute;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=/main.39afc03c.css.map */

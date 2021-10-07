@@ -154,6 +154,12 @@ $spyEls.forEach(function (spyEl) {
     triggerElement: spyEl,
     triggerHook: 0.8
   }).setClassToggle(spyEl, 'show').addTo(new ScrollMagic.Controller());
+}); // new Swiper
+
+new Swiper('.inner__left .swiper-container', {
+  direction: 'vertical',
+  autoplay: true,
+  loop: true
 });
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -183,7 +189,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59409" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54124" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
